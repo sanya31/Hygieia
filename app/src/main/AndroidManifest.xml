@@ -13,61 +13,88 @@
         android:theme="@style/Theme.HealthDream">
         <activity
             android:name=".Payment"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".Buy"
             android:exported="true" />
         <activity
             android:name=".Buy"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".FamilyDetails"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true" />
         <activity
             android:name=".UserDetails"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true" />
         <activity
             android:name=".Help3"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".Help"
             android:exported="true" />
         <activity
             android:name=".Help2"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".Help"
             android:exported="true" />
         <activity
             android:name=".Help1"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".Help"
             android:exported="true" />
         <activity
             android:name=".Help"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".Donate"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".AppointmentLog"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true" />
         <activity
             android:name=".DailyDoseLog"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true" />
         <activity
             android:name=".AppointmentReminder"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".AppointmentLog"
             android:exported="true" />
         <activity
             android:name=".DailyDoseReminder"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".DailyDoseLog"
             android:exported="true" />
         <activity
-            android:name=".AppointmentSchedule"
-            android:exported="true" />
-        <activity
             android:name=".DailyDoseSchedule"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:parentActivityName=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="keyboardHidden|orientation|screenSize"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

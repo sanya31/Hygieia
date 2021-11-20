@@ -22,7 +22,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Hello ! Do you want to bring a smile on someone face ? \n Donate Rs 1 By clicking on Button below"
+            android:text="Hello ! Do you want to bring a smile on someone's face ? \n Donate Rs 1 By clicking on Button below"
             android:textStyle="bold"
             android:textSize="14sp"
             android:textAlignment="center"

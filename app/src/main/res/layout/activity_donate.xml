@@ -167,6 +167,7 @@
                     android:textSize="18sp"
                     android:textColor="@color/black"
                     android:padding="8dp"
+                    android:textAlignment="center"
                     android:text="Every Little bit helps. You don’t need $10,000 to make a difference in someone’s life. Your smallest contribution can pay for a child's much-needed medications."
                     android:layout_marginBottom="20dp"/>
 

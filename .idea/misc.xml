@@ -9,6 +9,7 @@
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_appointment_log.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_appointment_reminder.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_appointment_schedule.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_buy.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_daily_dose_log.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_daily_dose_reminder.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_daily_dose_schedule.xml" value="0.20416666666666666" />
@@ -21,14 +22,18 @@
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_info.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_info1.xml" value="0.25" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_payment.xml" value="0.19010416666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_profile.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_reminders.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_settings.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_user_details.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/activity_user_info.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/donate_dialog.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/dropdownitem.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/fragment_memberdetails.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/item.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/item2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/paymentdone.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/aaa/AndroidStudioProjects/HealthDream/app/src/main/res/layout/reminder_option.xml" value="0.20416666666666666" />
       </map>
     </option>

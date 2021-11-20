@@ -11,6 +11,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/imgone"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -33,9 +34,10 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
                 android:layout_marginBottom="20dp"
                 android:layout_weight="1"
-                android:text="Daily Schedule Of Appointments"
+                android:text="Daily Schedule"
                 android:textColor="@color/black"
                 android:textSize="20sp"/>
 
@@ -70,6 +72,7 @@
 
             <ListView
                 android:id="@+id/listview"
+                android:dividerHeight="10.0sp"
                 android:layout_width="match_parent"
                 android:layout_height="550dp">
 

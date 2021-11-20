@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.app.TimePickerDialog;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.provider.AlarmClock;
 import android.view.View;
@@ -83,6 +84,7 @@ public class DailyDoseReminder extends AppCompatActivity {
         wednesday.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                wednesday.setBackgroundColor(Color.green(3));
                 list.add("Wednesday");
                 days.add(4);
             }

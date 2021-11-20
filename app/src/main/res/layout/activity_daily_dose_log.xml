@@ -8,6 +8,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="#ACCBE3"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -59,6 +60,7 @@
 
             <ListView
                 android:id="@+id/listview"
+                android:dividerHeight="10.0sp"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 

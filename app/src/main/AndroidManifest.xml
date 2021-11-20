@@ -12,6 +12,14 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.HealthDream">
         <activity
+            android:name=".Payment"
+            android:parentActivityName=".Buy"
+            android:exported="true" />
+        <activity
+            android:name=".Buy"
+            android:parentActivityName=".MainActivity"
+            android:exported="true" />
+        <activity
             android:name=".FamilyDetails"
             android:exported="true" />
         <activity
@@ -19,18 +27,23 @@
             android:exported="true" />
         <activity
             android:name=".Help3"
+            android:parentActivityName=".Help"
             android:exported="true" />
         <activity
             android:name=".Help2"
+            android:parentActivityName=".Help"
             android:exported="true" />
         <activity
             android:name=".Help1"
+            android:parentActivityName=".Help"
             android:exported="true" />
         <activity
             android:name=".Help"
+            android:parentActivityName=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".Donate"
+            android:parentActivityName=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".AppointmentLog"
@@ -40,15 +53,18 @@
             android:exported="true" />
         <activity
             android:name=".AppointmentReminder"
+            android:parentActivityName=".AppointmentLog"
             android:exported="true" />
         <activity
             android:name=".DailyDoseReminder"
+            android:parentActivityName=".DailyDoseLog"
             android:exported="true" />
         <activity
             android:name=".AppointmentSchedule"
             android:exported="true" />
         <activity
             android:name=".DailyDoseSchedule"
+            android:parentActivityName=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".MainActivity"

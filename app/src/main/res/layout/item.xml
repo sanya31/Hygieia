@@ -7,10 +7,10 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
         android:layout_width="0dp"
-        android:layout_height="100dp"
+        android:layout_height="120dp"
         app:cardCornerRadius="10dp"
         app:cardElevation="30dp"
-        android:layout_marginBottom="40dp"
+        android:layout_marginBottom="20dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" >
@@ -24,10 +24,13 @@
                 android:id="@+id/dosename"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginStart="20sp"
+                android:layout_marginTop="20sp"
+                android:layout_marginEnd="20sp"
+                android:layout_marginBottom="20sp"
                 android:text="Dose Name"
-                android:textSize="18sp"
                 android:textColor="@color/black"
-                android:layout_margin="20sp"/>
+                android:textSize="18sp" />
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -41,8 +44,7 @@
                     android:id="@+id/day"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_marginEnd="20dp"
-                    android:text="Doseday"
+                    android:text="Dose Day"
                     android:textColor="@color/black"
                     android:textSize="18sp"
                     android:layout_marginRight="20dp" />
@@ -50,10 +52,10 @@
                     android:id="@+id/timing"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Dose time"
+                    android:text="Dose Time"
                     android:textColor="@color/black"
-                    android:textSize="18sp"
-                    />
+                    android:textSize="18sp" />
+
 
             </LinearLayout>
 

@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         }
             dose_schedule = findViewById(R.id.medicationschedule);
-            appointment = findViewById(R.id.appointment);
+            //appointment = findViewById(R.id.appointment);
             reminder = findViewById(R.id.reminder);
             profile = findViewById(R.id.settings);
             donate = findViewById(R.id.donate);
@@ -63,18 +63,18 @@ public class MainActivity extends AppCompatActivity {
                 }
             });
 
-            appointment.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View view) {
-                    Intent intent = new Intent(MainActivity.this, AppointmentSchedule.class);
-                    startActivity(intent);
-                }
-            });
+//            appointment.setOnClickListener(new View.OnClickListener() {
+//                @Override
+//                public void onClick(View view) {
+//                    Intent intent = new Intent(MainActivity.this, AppointmentSchedule.class);
+//                    startActivity(intent);
+//                }
+//            });
 
             profile.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
-                    Intent intent = new Intent(MainActivity.this, Settings.class);
+                    Intent intent = new Intent(MainActivity.this, Buy.class);
                     startActivity(intent);
                 }
             });
@@ -105,7 +105,7 @@ private void showDialog() {
     Button meds=reg_layout.findViewById(R.id.medication);
     Button appt=reg_layout.findViewById(R.id.appoint);
     dialog.setTitle("Set Reminder");
-
+    Button back=reg_layout.findViewById(R.id.Goback);
     meds.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View view) {
@@ -121,12 +121,15 @@ private void showDialog() {
         }
     });
     //set button
-    dialog.setNegativeButton("Go Back", new DialogInterface.OnClickListener() {
+    AlertDialog alertDialog = dialog.create();
+
+    back.setOnClickListener(new View.OnClickListener() {
         @Override
-        public void onClick(DialogInterface dialog, int which) {
-            dialog.dismiss();
+        public void onClick(View v) {
+            alertDialog.dismiss();
         }
     });
-    dialog.show();
+
+    alertDialog.show();
 }
 }

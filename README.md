@@ -3,7 +3,7 @@
 
 An Android Application for tracking people's medication schedule with the following features:
 - Set reminders for medicines and important appointments
-- Get a Daily schedule for all you medicines and appointments
+- Get a Daily schedule for all your medicines and appointments
 - Incase the patient misses multiple doses, his/her family members will be notified via an alert message to take extra care of the patient
 - Complete video guide and step-by-step tutorial for using different medical devices like inhalers, syringes etc.
 - Buy medicines and donate Rs.1 towards a noble cause if you wish to
